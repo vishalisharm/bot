@@ -1,0 +1,120 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif; /* Use Arial font */
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    padding: 10px 0; /* Add padding to navbar */
+}
+
+.navbar-brand {
+    color: #fff; /* White text color */
+    font-size: 28px; /* Larger font size */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* White color for the toggler icon */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text color for navbar links */
+    font-size: 18px; /* Font size */
+    padding: 10px 20px; /* Padding for navbar links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    display: inline-block; /* Display buttons in a line */
+    margin-right: 10px; /* Add some spacing between buttons */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #495057; /* Darker background color on hover */
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #007bff; /* Blue background color for active link */
+}
+
+/* Custom styling for buttons */
+.btn-custom {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    font-size: 18px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Logo */
+.logo img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff; /* White border around the logo */
+    border-radius: 50%; /* Circular shape */
+}
+
+/* Main heading */
+h1 {
+    color: #007bff; /* Blue text color */
+    margin-top: 50px; /* Add space above heading */
+}
+
+/* Container */
+.container {
+    background-color: #fff; /* White background color */
+    color: #212529; /* Dark text color */
+    border-radius: 15px; /* Rounded corners */
+    padding: 40px; /* Padding inside container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.form-control {
+    background-color: #f1f3f4; /* Light gray background color for form inputs */
+    border-color: #ced4da; /* Border color */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue background color for primary button */
+    border-color: #007bff; /* Blue border color */
+    color: #fff; /* White text color */
+    font-size: 18px; /* Font size */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red background color for danger button */
+    border-color: #dc3545; /* Red border color */
+    color: #fff; /* White text color */
+    font-size: 18px; /* Font size */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Results section */
+.result-container {
+    margin-top: 30px; /* Add space above buttons */
+}
+
+.toggle-button {
+    padding: 10px 20px; /* Padding for buttons */
+    margin: 5px; /* Margin between buttons */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Increase size of text area */
+#symptoms {
+    height: 30px; /* Adjust height as needed */
+    border-radius: 10px;
+    width: 300px;
+}
